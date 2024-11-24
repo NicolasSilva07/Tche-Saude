@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores para o modo escuro -->
+    <color name="colorPrimary">#BB86FC</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#2196F3</color>
+    <color name="orange">#FF5722</color> <!-- Mais escuro para o modo escuro -->
+    <color name="darkRed">#B71C1C</color>
+    <color name="background">#121212</color> <!-- Escuro para o fundo -->
+    <color name="design_default_color_error">#CF6679</color>
+    <color name="green">#4CAF50</color>
+    <color name="teal_700">#03DAC6</color>
+    <color name="buttonOriginalColor">#6F6F6F</color> <!-- Mais escuro para o modo escuro -->
+    <color name="gray">#B0B0B0</color> <!-- Mais claro para o modo escuro -->
+    <color name="textOriginalColor">#FFFFFF</color> <!-- Texto branco para contraste -->
+    <color name="original_button1_color">#CDDC39</color>
+    <color name="original_button2_color">#FF5722</color> <!-- Mais escuro para o modo escuro -->
+    <color name="original_button3_color">#2196F3</color>
+    <color name="original_button4_color">#4CAF50</color>
+    <color name="original_exit_button_color">#8B0000</color>
+    <color name="original_dark_mode_button_color">#FFC107</color>
+    <color name="textColor">#FFFFFF</color> <!-- Texto branco para o modo escuro -->
+    <color name="buttonBackground">#FF5722</color> <!-- Mais escuro para o modo escuro -->
+    <color name="buttonTextColor">#FFFFFF</color>
+    <color name="resetButtonBackground">#FF5722</color> <!-- Mais escuro para o modo escuro -->
+    <color name="backToStartButtonBackground">#B71C1C</color>
+</resources>

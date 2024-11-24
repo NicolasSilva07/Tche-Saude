@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChallengeChecklistActivity">
+
+    <CheckBox
+        android:id="@+id/checkBoxChallenge1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beber 8 copos de água"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBoxChallenge2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fazer 30 minutos de atividade física"
+        app:layout_constraintTop_toBottomOf="@id/checkBoxChallenge1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBoxChallenge3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comer uma porção de frutas"
+        app:layout_constraintTop_toBottomOf="@id/checkBoxChallenge2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBoxChallenge4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Incluir uma porção de vegetais"
+        app:layout_constraintTop_toBottomOf="@id/checkBoxChallenge3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/congratulationsMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/checkBoxChallenge4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Resetar"
+        android:backgroundTint="@color/orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/congratulationsMessage" />
+
+    <Button
+        android:id="@+id/buttonBackToMain"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Voltar ao início"
+        android:backgroundTint="@color/darkRed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonReset" />
+
+    <Button
+        android:id="@+id/buttonViewCompletedChallenges"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Desafios Concluídos"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonBackToMain" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
